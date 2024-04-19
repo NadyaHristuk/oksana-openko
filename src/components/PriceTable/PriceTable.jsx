@@ -15,14 +15,14 @@ export default function PriceTable({ name }) {
       <tbody>
         <tr className="second-row">
           <td className="first-cell">{name.cards ? '' : 'Офлайн'}</td>
-          <td className="second-cell">900 грн.</td>
-          <td className="third-cell">1200 грн.</td>
+          <td className="second-cell">1300 грн.</td>
+          <td className="third-cell">1800 грн.</td>
         </tr>
         <tr className="third-row">
           <td className="first-cell">{name.cards ? '' : 'Онлайн'}</td>
-          <td className="second-cell">700 грн.</td>
+          <td className="second-cell">1000 грн.</td>
           <td className="third-cell">
-            {name.cards ? '850 грн.' : '1000 грн.'}
+            {name.cards ? '1350 грн.' : '1500 грн.'}
           </td>
         </tr>
       </tbody>
